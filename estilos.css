@@ -1,0 +1,41 @@
+:root {
+    --dark-blue: hsl(217, 28%, 15%);
+    --cyan: hsl(176, 68%, 64%);
+    --blue: hsl(198, 60%, 50%);
+    --light-red: hsl(0, 100%, 63%);
+    --white: hsl(0, 0%, 100%);
+
+    --titulo: 'Raleway', sans-serif;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(./imagenes/wallpaper.jpg);
+    background-size: 150%;
+    background-repeat: no-repeat;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 0 10px #000;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 220px);
+    grid-template-rows: auto;
+    row-gap: 10px;
+}
+
+.mole {
+    background-image: url(./imagenes/fantasma.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
